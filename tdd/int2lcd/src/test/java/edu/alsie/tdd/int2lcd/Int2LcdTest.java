@@ -28,4 +28,10 @@ public class Int2LcdTest {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertTrue(int2Lcd.isNumberFour(4));
   }
+
+  @Test
+  public void testGivenAThenIsDigit() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isDigit('a'));
+  }
 }
