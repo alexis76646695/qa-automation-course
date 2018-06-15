@@ -40,6 +40,12 @@ public class Int2LcdTest {
   }
 
   @Test
+  public void testIfNumberIsSix() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isNumberSix(6));
+  }
+
+  @Test
   public void testGivenAThenNotIsDigit() {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertFalse(int2Lcd.isDigit('a'));
