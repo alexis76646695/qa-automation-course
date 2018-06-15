@@ -16,4 +16,10 @@ public class Int2LcdTest {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertTrue(int2Lcd.isNumberTwo(2));
   }
+
+  @Test
+  public void testIfNumberIsThree() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isNumberThree(3));
+  }
 }
