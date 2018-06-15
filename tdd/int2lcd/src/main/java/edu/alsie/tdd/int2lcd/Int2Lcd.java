@@ -19,4 +19,8 @@ public class Int2Lcd {
     public boolean isNumberFour(int number) {
         return number == 4;
     }
+
+    public boolean isDigit(char letter) {
+        return Character.isDigit(letter);
+    }
 }

@@ -30,8 +30,8 @@ public class Int2LcdTest {
   }
 
   @Test
-  public void testGivenAThenIsDigit() {
+  public void testGivenAThenNotIsDigit() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    Assert.assertTrue(int2Lcd.isDigit('a'));
+    Assert.assertFalse(int2Lcd.isDigit('a'));
   }
 }
