@@ -23,6 +23,10 @@ public class Int2Lcd {
         return number == 4;
     }
 
+    public boolean isNumberFive(int number) {
+        return number == 5;
+    }
+
     public boolean isDigit(char letter) {
         return Character.isDigit(letter);
     }
