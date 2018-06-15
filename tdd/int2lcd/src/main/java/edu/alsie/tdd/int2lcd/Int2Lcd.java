@@ -27,6 +27,22 @@ public class Int2Lcd {
         return number == 5;
     }
 
+    public boolean isNumberSix(int number) {
+        return number == 6;
+    }
+
+    public boolean isNumberSeven(int number) {
+        return number == 7;
+    }
+
+    public boolean isNumberEight(int number) {
+        return number == 8;
+    }
+
+    public boolean isNumberNine(int number) {
+        return number == 9;
+    }
+
     public boolean isDigit(char letter) {
         return Character.isDigit(letter);
     }
@@ -40,17 +56,5 @@ public class Int2Lcd {
             return numberOneLcd;
         }
         return numberOneLcd;
-    }
-
-    public boolean isNumberSix(int number) {
-        return number == 6;
-    }
-
-    public boolean isNumberSeven(int number) {
-        return number == 7;
-    }
-
-    public boolean isNumberEight(int number) {
-        return number == 8;
     }
 }
