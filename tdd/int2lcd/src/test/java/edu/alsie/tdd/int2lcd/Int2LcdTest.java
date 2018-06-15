@@ -26,6 +26,6 @@ public class Int2LcdTest {
   @Test
   public void testIfNumberIsFour() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    Assert.assertTrue(int2Lcd.isNumberFour(3));
+    Assert.assertTrue(int2Lcd.isNumberFour(4));
   }
 }
