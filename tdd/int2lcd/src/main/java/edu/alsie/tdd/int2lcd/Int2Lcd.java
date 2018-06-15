@@ -7,4 +7,8 @@ public class Int2Lcd {
     public boolean isNumberOne(int number) {
         return number == 1;
     }
+
+    public boolean isNumberTwo(int number) {
+        return number == 2;
+    }
 }
