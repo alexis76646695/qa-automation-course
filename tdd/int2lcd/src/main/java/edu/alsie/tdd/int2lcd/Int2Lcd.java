@@ -11,4 +11,8 @@ public class Int2Lcd {
     public boolean isNumberTwo(int number) {
         return number == 2;
     }
+
+    public boolean isNumberThree(int number) {
+        return number == 3;
+    }
 }
