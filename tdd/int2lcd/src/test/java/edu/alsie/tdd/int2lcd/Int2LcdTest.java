@@ -22,4 +22,10 @@ public class Int2LcdTest {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertTrue(int2Lcd.isNumberThree(3));
   }
+
+  @Test
+  public void testIfNumberIsFour() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isNumberFour(3));
+  }
 }
