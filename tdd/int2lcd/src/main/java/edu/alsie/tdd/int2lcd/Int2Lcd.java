@@ -48,13 +48,18 @@ public class Int2Lcd {
     }
 
     public List<String> convertDigitToLcd(int number) {
-        List<String> numberOneLcd = new ArrayList<>();
+        List<String> numbersLcd = new ArrayList<>();
         if (isNumberOne(number)) {
-            numberOneLcd.add(" ");
-            numberOneLcd.add("|");
-            numberOneLcd.add("|");
-            return numberOneLcd;
+            this.getNumberOneLcd();
         }
-        return numberOneLcd;
+        return numbersLcd;
+    }
+
+    private List<String>  getNumberOneLcd() {
+        List<String> numbersOneLcd = new ArrayList<>();
+        numbersOneLcd.add(" ");
+        numbersOneLcd.add("|");
+        numbersOneLcd.add("|");
+        return numbersOneLcd;
     }
 }
