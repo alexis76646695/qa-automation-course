@@ -3,6 +3,10 @@ package edu.alsie.tdd.int2lcd;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Int2LcdTest {
 
   @Test
@@ -33,5 +37,13 @@ public class Int2LcdTest {
   public void testGivenAThenNotIsDigit() {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertFalse(int2Lcd.isDigit('a'));
+  }
+
+  @Test
+  public void testGiven1ThenConvertToLcd() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    List<String> expected = Arrays.asList("_","| |","_");
+    List<String> actual = int2Lcd.convertDigitToLcd(1);
+    Assert.assertEquals(expected, actual);
   }
 }
