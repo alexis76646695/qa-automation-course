@@ -45,4 +45,8 @@ public class Int2Lcd {
     public boolean isNumberSix(int number) {
         return number == 6;
     }
+
+    public boolean isNumberSeven(int number) {
+        return number == 7;
+    }
 }
