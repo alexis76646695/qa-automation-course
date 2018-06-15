@@ -46,6 +46,12 @@ public class Int2LcdTest {
   }
 
   @Test
+  public void testIfNumberIsSeven() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isNumberSeven(7));
+  }
+
+  @Test
   public void testGivenAThenNotIsDigit() {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertFalse(int2Lcd.isDigit('a'));
