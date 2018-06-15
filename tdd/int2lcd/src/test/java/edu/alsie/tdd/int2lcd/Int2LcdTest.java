@@ -34,6 +34,12 @@ public class Int2LcdTest {
   }
 
   @Test
+  public void testIfNumberIsFive() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isNumberFive(5));
+  }
+
+  @Test
   public void testGivenAThenNotIsDigit() {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertFalse(int2Lcd.isDigit('a'));
