@@ -46,15 +46,21 @@ public class Int2LcdTest {
   }
 
   @Test
+  public void testIfNumberIsSeven() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    Assert.assertTrue(int2Lcd.isNumberSeven(7));
+  }
+
+  @Test
   public void testIfNumberIsEight() {
     Int2Lcd int2Lcd = new Int2Lcd();
     Assert.assertTrue(int2Lcd.isNumberEight(8));
   }
 
   @Test
-  public void testIfNumberIsSeven() {
+  public void testIfNumberIsNine() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    Assert.assertTrue(int2Lcd.isNumberSeven(7));
+    Assert.assertTrue(int2Lcd.isNumberNine(9));
   }
 
   @Test
