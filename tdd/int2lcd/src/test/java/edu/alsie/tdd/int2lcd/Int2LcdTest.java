@@ -104,7 +104,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven5ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList("_","|_"," _|");
+    List<String> expected = Arrays.asList(" _","|_"," _|");
     List<String> actual = int2Lcd.convertDigitToLcd(5);
     Assert.assertEquals(expected, actual);
   }
