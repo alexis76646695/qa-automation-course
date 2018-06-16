@@ -64,6 +64,9 @@ public class Int2Lcd {
         if (isNumberFive(number)) {
             numbersLcd = this.getNumberFiveLcd();
         }
+        if (isNumberSix(number)) {
+            numbersLcd = this.getNumberSixLcd();
+        }
         return numbersLcd;
     }
 
@@ -104,6 +107,14 @@ public class Int2Lcd {
         numberFiveLcd.add("_");
         numberFiveLcd.add("|_");
         numberFiveLcd.add("_|");
+        return numberFiveLcd;
+    }
+
+    private List<String>  getNumberSixLcd() {
+        List<String> numberFiveLcd = new ArrayList<>();
+        numberFiveLcd.add("_");
+        numberFiveLcd.add("|_");
+        numberFiveLcd.add("|_|");
         return numberFiveLcd;
     }
 }
