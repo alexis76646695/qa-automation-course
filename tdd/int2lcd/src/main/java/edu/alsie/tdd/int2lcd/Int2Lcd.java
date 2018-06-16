@@ -89,23 +89,23 @@ public class Int2Lcd {
 
     private List<String>  getNumberTwoLcd() {
         List<String> numberTwoLcd = new ArrayList<>();
-        numberTwoLcd.add(" _");
+        numberTwoLcd.add(" _ ");
         numberTwoLcd.add(" _|");
-        numberTwoLcd.add("|_");
+        numberTwoLcd.add("|_ ");
         return numberTwoLcd;
     }
 
     private List<String>  getNumberThreeLcd() {
         List<String> numberThreeLcd = new ArrayList<>();
-        numberThreeLcd.add("_");
-        numberThreeLcd.add("_|");
-        numberThreeLcd.add("_|");
+        numberThreeLcd.add(" _ ");
+        numberThreeLcd.add(" _|");
+        numberThreeLcd.add(" _|");
         return numberThreeLcd;
     }
 
     private List<String>  getNumberFourLcd() {
         List<String> numberFourLcd = new ArrayList<>();
-        numberFourLcd.add(" ");
+        numberFourLcd.add("   ");
         numberFourLcd.add("|_|");
         numberFourLcd.add("  |");
         return numberFourLcd;
@@ -113,23 +113,23 @@ public class Int2Lcd {
 
     private List<String>  getNumberFiveLcd() {
         List<String> numberFiveLcd = new ArrayList<>();
-        numberFiveLcd.add(" _");
-        numberFiveLcd.add("|_");
+        numberFiveLcd.add(" _ ");
+        numberFiveLcd.add("|_ ");
         numberFiveLcd.add(" _|");
         return numberFiveLcd;
     }
 
     private List<String>  getNumberSixLcd() {
         List<String> numberSixLcd = new ArrayList<>();
-        numberSixLcd.add(" _");
-        numberSixLcd.add("|_");
+        numberSixLcd.add(" _ ");
+        numberSixLcd.add("|_ ");
         numberSixLcd.add("|_|");
         return numberSixLcd;
     }
 
     private List<String>  getNumberSevenLcd() {
         List<String> numberSevenLcd = new ArrayList<>();
-        numberSevenLcd.add(" _");
+        numberSevenLcd.add(" _ ");
         numberSevenLcd.add("  |");
         numberSevenLcd.add("  |");
         return numberSevenLcd;
@@ -137,7 +137,7 @@ public class Int2Lcd {
 
     private List<String>  getNumberEightLcd() {
         List<String> numberEightLcd = new ArrayList<>();
-        numberEightLcd.add(" _");
+        numberEightLcd.add(" _ ");
         numberEightLcd.add("|_|");
         numberEightLcd.add("|_|");
         return numberEightLcd;
@@ -145,7 +145,7 @@ public class Int2Lcd {
 
     private List<String>  getNumberNineLcd() {
         List<String> numberNineLcd = new ArrayList<>();
-        numberNineLcd.add(" _");
+        numberNineLcd.add(" _ ");
         numberNineLcd.add("|_|");
         numberNineLcd.add(" _|");
         return numberNineLcd;
