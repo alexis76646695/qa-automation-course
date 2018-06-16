@@ -8,9 +8,12 @@ public class Main {
         List<String> numberLcd;
 
         Int2Lcd int2Lcd = new Int2Lcd();
-        numberLcd = int2Lcd.convertDigitToLcd(1);
-        for (int i = 0; i < numberLcd.size(); i++) {
-            System.out.println(numberLcd.get(i));
+        for (int i = 0 ; i < 10 ; i ++){
+            numberLcd = int2Lcd.convertDigitToLcd(i);
+            for (int x = 0; x< numberLcd.size(); x++) {
+                System.out.println(numberLcd.get(x));
+            }
         }
+
     }
 }
