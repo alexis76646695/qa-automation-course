@@ -73,6 +73,9 @@ public class Int2Lcd {
         if (isNumberEight(number)) {
             numbersLcd = this.getNumberEightLcd();
         }
+        if (isNumberNine(number)) {
+            numbersLcd = this.getNumberNineLcd();
+        }
         return numbersLcd;
     }
 
@@ -138,5 +141,13 @@ public class Int2Lcd {
         numberEightLcd.add("|");
         numberEightLcd.add("|");
         return numberEightLcd;
+    }
+
+    private List<String>  getNumberNineLcd() {
+        List<String> numberNineLcd = new ArrayList<>();
+        numberNineLcd.add(" _");
+        numberNineLcd.add("|_|");
+        numberNineLcd.add("  |");
+        return numberNineLcd;
     }
 }
