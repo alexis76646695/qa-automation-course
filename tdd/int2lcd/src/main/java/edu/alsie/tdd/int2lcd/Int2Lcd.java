@@ -50,7 +50,7 @@ public class Int2Lcd {
     public List<String> convertDigitToLcd(int number) {
         List<String> numbersLcd = new ArrayList<>();
         if (isNumberOne(number)) {
-            this.getNumberOneLcd();
+            numbersLcd = this.getNumberOneLcd();
         }
         return numbersLcd;
     }
