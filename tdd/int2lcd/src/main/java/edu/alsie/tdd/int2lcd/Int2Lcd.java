@@ -147,7 +147,7 @@ public class Int2Lcd {
         List<String> numberNineLcd = new ArrayList<>();
         numberNineLcd.add(" _");
         numberNineLcd.add("|_|");
-        numberNineLcd.add("  |");
+        numberNineLcd.add(" _|");
         return numberNineLcd;
     }
 }
