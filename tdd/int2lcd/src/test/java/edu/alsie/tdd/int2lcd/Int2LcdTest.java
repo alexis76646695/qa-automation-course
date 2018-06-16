@@ -3,7 +3,6 @@ package edu.alsie.tdd.int2lcd;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -80,7 +79,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven2ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList(" _"," _|","|_");
+    List<String> expected = Arrays.asList(" _ "," _|","|_ ");
     List<String> actual = int2Lcd.convertDigitToLcd(2);
     Assert.assertEquals(expected, actual);
   }
@@ -88,7 +87,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven3ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList("_","_|","_|");
+    List<String> expected = Arrays.asList(" _ "," _|"," _|");
     List<String> actual = int2Lcd.convertDigitToLcd(3);
     Assert.assertEquals(expected, actual);
   }
@@ -96,7 +95,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven4ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList(" ","|_|","  |");
+    List<String> expected = Arrays.asList("   ","|_|","  |");
     List<String> actual = int2Lcd.convertDigitToLcd(4);
     Assert.assertEquals(expected, actual);
   }
@@ -104,7 +103,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven5ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList(" _","|_"," _|");
+    List<String> expected = Arrays.asList(" _ ","|_ "," _|");
     List<String> actual = int2Lcd.convertDigitToLcd(5);
     Assert.assertEquals(expected, actual);
   }
@@ -120,7 +119,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven7ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList(" _","  |","  |");
+    List<String> expected = Arrays.asList(" _ ","  |","  |");
     List<String> actual = int2Lcd.convertDigitToLcd(7);
     Assert.assertEquals(expected, actual);
   }
@@ -128,7 +127,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven8ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList(" _","|_|","|_|");
+    List<String> expected = Arrays.asList(" _ ","|_|","|_|");
     List<String> actual = int2Lcd.convertDigitToLcd(8);
     Assert.assertEquals(expected, actual);
   }
@@ -136,7 +135,7 @@ public class Int2LcdTest {
   @Test
   public void testGiven9ThenConvertToLcd() {
     Int2Lcd int2Lcd = new Int2Lcd();
-    List<String> expected = Arrays.asList(" _","|_|"," _|");
+    List<String> expected = Arrays.asList(" _ ","|_|"," _|");
     List<String> actual = int2Lcd.convertDigitToLcd(9);
     Assert.assertEquals(expected, actual);
   }
