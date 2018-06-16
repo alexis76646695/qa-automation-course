@@ -116,4 +116,12 @@ public class Int2LcdTest {
     List<String> actual = int2Lcd.convertDigitToLcd(6);
     Assert.assertEquals(expected, actual);
   }
+
+  @Test
+  public void testGiven7ThenConvertToLcd() {
+    Int2Lcd int2Lcd = new Int2Lcd();
+    List<String> expected = Arrays.asList("_","|","|");
+    List<String> actual = int2Lcd.convertDigitToLcd(7);
+    Assert.assertEquals(expected, actual);
+  }
 }
