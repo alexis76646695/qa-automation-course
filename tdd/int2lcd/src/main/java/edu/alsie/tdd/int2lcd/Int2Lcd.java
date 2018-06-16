@@ -52,6 +52,9 @@ public class Int2Lcd {
         if (isNumberOne(number)) {
             numbersLcd = this.getNumberOneLcd();
         }
+        if (isNumberTwo(number)) {
+            numbersLcd = this.getNumberTwoLcd();
+        }
         return numbersLcd;
     }
 
@@ -61,5 +64,13 @@ public class Int2Lcd {
         numbersOneLcd.add("|");
         numbersOneLcd.add("|");
         return numbersOneLcd;
+    }
+
+    private List<String>  getNumberTwoLcd() {
+        List<String> numberTwoLcd = new ArrayList<>();
+        numberTwoLcd.add("_");
+        numberTwoLcd.add("_|");
+        numberTwoLcd.add("|_");
+        return numberTwoLcd;
     }
 }
