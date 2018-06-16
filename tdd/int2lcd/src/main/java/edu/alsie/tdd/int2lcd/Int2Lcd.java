@@ -73,4 +73,12 @@ public class Int2Lcd {
         numberTwoLcd.add("|_");
         return numberTwoLcd;
     }
+
+    private List<String>  getNumberThreeLcd() {
+        List<String> numberThreeLcd = new ArrayList<>();
+        numberThreeLcd.add("_");
+        numberThreeLcd.add("_|");
+        numberThreeLcd.add("_|");
+        return numberThreeLcd;
+    }
 }
