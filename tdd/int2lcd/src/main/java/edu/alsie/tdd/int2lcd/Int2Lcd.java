@@ -61,6 +61,9 @@ public class Int2Lcd {
         if (isNumberFour(number)) {
             numbersLcd = this.getNumberFourLcd();
         }
+        if (isNumberFive(number)) {
+            numbersLcd = this.getNumberFiveLcd();
+        }
         return numbersLcd;
     }
 
@@ -87,11 +90,20 @@ public class Int2Lcd {
         numberThreeLcd.add("_|");
         return numberThreeLcd;
     }
+
     private List<String>  getNumberFourLcd() {
         List<String> numberFourLcd = new ArrayList<>();
         numberFourLcd.add(" ");
         numberFourLcd.add("|_|");
         numberFourLcd.add(" |");
         return numberFourLcd;
+    }
+
+    private List<String>  getNumberFiveLcd() {
+        List<String> numberFiveLcd = new ArrayList<>();
+        numberFiveLcd.add("_");
+        numberFiveLcd.add("|_");
+        numberFiveLcd.add("_|");
+        return numberFiveLcd;
     }
 }
